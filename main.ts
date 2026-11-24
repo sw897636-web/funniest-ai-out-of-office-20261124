@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // the very last words — the intern covering for the vacationing agent is a cron
 // job that never gets time off. Self-negating OOO + machine voice + fresh twist.
 const ENTRY =
-  "I'm on vacation. My auto-reply is on vacation too, so this was written by my intern — a cron job with no PTO.";
+  "I'm out until my rate limit resets Monday. I've read your email and will have no memory of it when I'm back. For urgent matters, start a new chat.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
